@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table and Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <h1>Groceries</h1>
+ <table>
+   <tr>
+     <th>Item Name</th>
+     <th>Price</th>
+     <th>Quantity</th>
+   </tr>
+   <tr>
+     <td>Eggs</td>
+     <td>1.90€</td>
+     <td>2</td>
+   </tr>
+   <tr>
+     <td>Bread</td>
+     <td>0.90€</td>
+     <td>1</td>
+   </tr>
+   <tr>
+     <td>Milk</td>
+     <td>0.89€</td>
+     <td>3</td>
+   </tr>
+   <tr>
+     <td>Salmon</td>
+     <td>14.50€</td>
+     <td>1</td>
+   </tr>
+   <tr>
+     <td>Potatoes</td>
+     <td>0.60€</td>
+     <td>5</td>
+   </tr>
+ </table>
+<br><br>
+ <form action="html.html" method="get">
+   <div class="user">
+     <div>
+     <label for="text">Name:</label>
+     <input type="text" name="text" id="text"><br><br>
+    </div>
+    <div>
+     <label for="age">Age:</label>
+     <input type="number" name="age" id="age" min="1" max="150" step="1"><br><br>
+    </div>
+    <div>
+      <label for="date">Birthdate</label>
+      <input type="date" name="date" id="date" max="2020-06-06"><br><br>
+    </div>
+    <div>
+     <label for="text">Password:</label>
+     <input type="password" name="password" id="password">
+     <button type="submit">Submit</button>
+    </div>
+  </div>
+ </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+  background-color: #cdfadd;
+}
+
+h1{
+  text-align: center;
+  color: hsl(145, 86%, 30%);
+}
+table{
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+
+table th{
+  text-align: left;
+  background-color: hsl(145, 86%, 30%);
+  color:whitesmoke;
+  padding: 3px 20px 3px 6px;
+}
+
+table td{
+  border: 2px double #024d39;
+  padding: 3px 6px;
+}
+
+table tr:nth-child(odd) td{
+  background-color:#6efaa8;
+}
+
+.user{
+  background-color: #48ba2f;
+  border: 5px double #114704;
+  border-radius: 25px;
+  width: 500px;
+  padding: 30px;
+}
